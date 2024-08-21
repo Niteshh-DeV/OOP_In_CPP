@@ -1,0 +1,75 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# IDE-specific files
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.sdf
+*.suo
+*.ncb
+*.opensdf
+*.VC.opendb
+*.VC.db
+
+# Ignore Code::Blocks files
+*.depend
+*.layout
+*.layout1
+*.cbp
+
+# Ignore Eclipse project files
+.cproject
+.project
+.settings/
+
+# Ignore CLion project files
+.idea/
+cmake-build-*/
+
+# Ignore Qt Creator project files
+*.pro.user
+*.qmake.stash
+
+# Miscellaneous
+*.log
+*.tmp
+*.temp
+*.swp
+*~ 
+
+# Ignore MacOS generated files
+.DS_Store
