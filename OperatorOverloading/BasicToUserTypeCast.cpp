@@ -28,9 +28,9 @@ int main()
 {
    Time t1,t2;
    t1=207040;
-   t2=308031;
-    cout<<"time t1:\t";t1.show(); 
-    cout<<endl;
-    cout<<"time t2:\t";t2.show();
-    return 0;
+   t2=Time(308031);
+   cout<<"time t1:\t";t1.show(); 
+   cout<<endl;
+   cout<<"time t2:\t";t2.show();
+   return 0;
 }
