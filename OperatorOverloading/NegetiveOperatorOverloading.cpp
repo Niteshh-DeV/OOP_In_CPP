@@ -1,3 +1,5 @@
+// Negative operator overloading without using friend function
+
 // #include <iostream>
 // using namespace std;
 
@@ -47,6 +49,8 @@
 
 //     return 0;
 // }
+
+// Unary - ve operator overloading Using Friend  Function!!
 
 
 #include <iostream>
