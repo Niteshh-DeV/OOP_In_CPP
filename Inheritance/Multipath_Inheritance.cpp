@@ -36,7 +36,8 @@ public:
 int main() {
     Pet myPet;
 
-    // Now, the ambiguity of the `speak()` method is resolved
+    cout<<"Example of Multipath inheritance and virtual base class !!" <<endl ;
+
     myPet.speak();   // Calls the Animal's speak method only once
 
     myPet.bark();    // From Dog class
