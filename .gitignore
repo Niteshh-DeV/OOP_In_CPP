@@ -21,6 +21,7 @@
 *.exe
 *.out
 *.app
+*.exec
 
 # Debug files
 *.dSYM/
