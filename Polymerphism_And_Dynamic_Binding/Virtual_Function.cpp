@@ -21,7 +21,7 @@ class cow : public Animal
 class dog :public Animal
 {
     public :
-            void dispaly()
+            void display()
             {
                 cout<<"\n From Class Dog.";
             }
