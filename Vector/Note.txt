@@ -1,0 +1,20 @@
+In C++, a vector is a part of the Standard Template Library (STL) and represents a dynamic array that can grow or shrink in size. 
+It is defined in the <vector> header and provides an efficient and convenient way to manage a collection of elements.
+
+Key Features of std::vector
+
+	1.	Dynamic Sizing: Unlike regular arrays, vectors can grow or shrink dynamically.
+	2.	Random Access: Provides O(1) time complexity for accessing elements via the [] operator or at() function.
+	3.	Automatic Memory Management: Handles memory allocation and deallocation automatically.
+	4.	Rich Methods: Offers a variety of member functions like push_back(), pop_back(), insert(), erase(), etc.
+	5.	Iterator Support: Fully compatible with STL iterators, making it easy to use in generic algorithms.
+
+    Function	          Description
+push_back(value)	    Adds an element at the end.
+pop_back()	            Removes the last element.
+size()	                Returns the number of elements in the vector.
+capacity()	            Returns the size of the allocated storage.
+resize(new_size, val)	Resizes the vector to new_size. If the size increases, new elements are initialized with val.
+insert(pos, value)	    Inserts an element at the specified position.
+erase(pos)	            Removes the element at the specified position.
+clear()	                Removes all elements from the vector.
