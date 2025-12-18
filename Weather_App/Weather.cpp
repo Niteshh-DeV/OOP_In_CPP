@@ -45,7 +45,7 @@ nlohmann::json loadFromFile() {
 class ChatBot {
 public:
     void getWeather(const std::string& city) {
-        const std::string apiKey = "e77b37fc8b7ebcba97ae147c33cc7096";
+        const std::string apiKey = "your openweather api key";
         std::string url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey + "&units=metric";
 
         CURL* curl;
