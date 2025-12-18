@@ -1,0 +1,135 @@
+{
+    "Kathmandu": {
+        "base": "stations",
+        "clouds": {
+            "all": 20
+        },
+        "cod": 200,
+        "coord": {
+            "lat": 27.7167,
+            "lon": 85.3167
+        },
+        "dt": 1738685075,
+        "id": 1283240,
+        "main": {
+            "feels_like": 14.44,
+            "grnd_level": 851,
+            "humidity": 67,
+            "pressure": 1015,
+            "sea_level": 1015,
+            "temp": 15.12,
+            "temp_max": 15.12,
+            "temp_min": 15.12
+        },
+        "name": "Kathmandu",
+        "sys": {
+            "country": "NP",
+            "id": 9201,
+            "sunrise": 1738631033,
+            "sunset": 1738670482,
+            "type": 1
+        },
+        "timezone": 20700,
+        "visibility": 8000,
+        "weather": [
+            {
+                "description": "few clouds",
+                "icon": "02n",
+                "id": 801,
+                "main": "Clouds"
+            }
+        ],
+        "wind": {
+            "deg": 200,
+            "speed": 1.54
+        }
+    },
+    "MAhendranagar": {
+        "base": "stations",
+        "clouds": {
+            "all": 1
+        },
+        "cod": 200,
+        "coord": {
+            "lat": 28.9167,
+            "lon": 80.3333
+        },
+        "dt": 1738741416,
+        "id": 1283095,
+        "main": {
+            "feels_like": 27.44,
+            "grnd_level": 975,
+            "humidity": 23,
+            "pressure": 1011,
+            "sea_level": 1011,
+            "temp": 28.85,
+            "temp_max": 28.85,
+            "temp_min": 28.85
+        },
+        "name": "Mahendranagar",
+        "sys": {
+            "country": "NP",
+            "sunrise": 1738718698,
+            "sunset": 1738758021
+        },
+        "timezone": 20700,
+        "visibility": 10000,
+        "weather": [
+            {
+                "description": "clear sky",
+                "icon": "01d",
+                "id": 800,
+                "main": "Clear"
+            }
+        ],
+        "wind": {
+            "deg": 255,
+            "gust": 4.45,
+            "speed": 4.84
+        }
+    },
+    "Mahendranagar": {
+        "base": "stations",
+        "clouds": {
+            "all": 86
+        },
+        "cod": 200,
+        "coord": {
+            "lat": 28.9167,
+            "lon": 80.3333
+        },
+        "dt": 1738685578,
+        "id": 1283095,
+        "main": {
+            "feels_like": 18.84,
+            "grnd_level": 976,
+            "humidity": 49,
+            "pressure": 1013,
+            "sea_level": 1013,
+            "temp": 19.55,
+            "temp_max": 19.55,
+            "temp_min": 19.55
+        },
+        "name": "Mahendranagar",
+        "sys": {
+            "country": "NP",
+            "sunrise": 1738632335,
+            "sunset": 1738671572
+        },
+        "timezone": 20700,
+        "visibility": 10000,
+        "weather": [
+            {
+                "description": "overcast clouds",
+                "icon": "04n",
+                "id": 804,
+                "main": "Clouds"
+            }
+        ],
+        "wind": {
+            "deg": 22,
+            "gust": 8.86,
+            "speed": 5.35
+        }
+    }
+}
